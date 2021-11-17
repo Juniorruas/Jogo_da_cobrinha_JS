@@ -28,7 +28,7 @@ function iniciarJogo(){
     let snakeY = snake[0].y;
 
     if(direction == "right") snakeX += box;
-    if(direction == "left") snakey -= box;
+    if(direction == "left") snakeX -= box;
     if(direction == "up") snakeY -= box;
     if(direction == "down") snakeY += box;
 
